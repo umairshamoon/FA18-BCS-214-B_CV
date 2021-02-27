@@ -1,44 +1,55 @@
 body {
-  background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
+
 #right {
-  width: 40%;
-  float: right;
-  background-color: rgb(37, 37, 128);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  color: rgb(240, 226, 226);
-  padding: 5%;
+    width: 40%;
+    float: right;
+    background-color: rgb(37, 37, 128);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(240, 226, 226);
+    padding: 5%;
 }
+
 #left {
-  width: 45%;
-  float: left;
-  background-color: rgb(196, 181, 181);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  padding: 5%;
+    width: 45%;
+    float: left;
+    background-color: rgb(196, 181, 181);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5%;
+    padding-top: 1px;
 }
+
 #outer {
-  display: flex;
-  border: solid rgb(235, 17, 17) 4px;
-  margin: 1%;
-  border-radius: 30px;
-  overflow: hidden;
+    display: flex;
+    border: solid rgb(235, 17, 17) 4px;
+    margin: 5%;
+    margin-top: 1px;
+    border-radius: 30px;
+    overflow: hidden;
 }
+
 hr {
-  margin-right: 50%;
+    margin-right: 50%;
 }
+
 img {
-  width: 50%;
-  border-radius: 50%;
-  border: solid white 0.5em;
+    width: 40%;
+    border-radius: 50%;
+    border: solid white 0.2em;
+    margin-left: 10%m;
+    margin-bottom: 10%;
 }
+
 h4 {
-  font-size: 3em;
+    font-size: 3em;
 }
+
 h1,
 h2 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 p,
@@ -47,5 +58,5 @@ h2,
 h3,
 h4,
 li {
-  font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
